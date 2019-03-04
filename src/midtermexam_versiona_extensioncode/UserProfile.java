@@ -61,6 +61,14 @@ public class UserProfile
         this.genre = genre;
     }
     
+    /**
+     * A getter for the list of genres for the user to choose from.
+     * @return  the list of genres
+     */
+    public String[] getGenres() {
+        return genres;
+    }
+    
     
     
     
